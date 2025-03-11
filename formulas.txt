@@ -1,0 +1,319 @@
+The Dynamics of Financial Markets: Fibonacci numbers, Elliott waves, and solitons
+Inga Ivanova 1
+Abstract
+In this paper information theoretical approach is applied to the description of financial markets A model which is expected to describe the markets dynamics is presented. It is shown the possibility to describe market trend and cycle dynamics from a unified viewpoint. The model predictions comparatively well suit Fibonacci ratios and numbers used for the analysis of market price and time projections. It proves possible to link time and price projections, thus allowing increase the accuracy of predicting well in advance the moment of trend termination. The model is tested against real data from the stock and financial markets.
+Key words: financial markets, Elliott waves, Fibonacci numbers, solitons
+I. Introduction
+In the last decades the attention of researches was drawn to behavioral economics which concentrates on various psychological factors which influence economic decision of people (e.g. Kahneman & Tversky, 1979; Thaler, 1980 and 1985; Banerjee, 1992). A branch of behavioral economics is behavioral finance which refer to studies of mechanisms that govern participant decisions in financial markets (e.g. Shiller, 1981; Statman, 1995; Olsen, 1998; Barber and Odean, 1999). Financial markets may serve visual indicators of behavioral decisions of market participants. The practical aspects of behavioral finance draw great attention of practitioners since stock and financial markets decisions about future price levels could yield significant profit
+1 corresponding author; Institute for Statistical Studies and Economics of Knowledge, National Research University Higher School of Economics (NRU HSE), 20 Myasnitskaya St., Moscow, 101000, Russia; inga.iva@mail.ru; Electronic copy available at: https://ssrn.com/abstract=3506517
+or loss. Hence it is important to know in advance when and where does bear or bull markets end, and what way one is able to predict it is near the end.
+Markets demonstrate a variety of patterns comprising chaotic movements, trends and cycles, which can be observed at various scale and time frames giving rise to complex market fractal manifold. However in simple words markets can be considered as composed of periods of directional price movement, characterized as trends, and periods of consolidation when chaotic and oscillatory behavior prevails. Trends and cycles can be considered as major instruments for market analysis. The popular method of trend analysis is Elliott wave principle, which presents a set of chart patterns reflecting mass psychology (Elliott, 1994). According Elliott most trends unfold in five waves (or swings) in the direction of the trend and three waves in the direction counter to the main trend, which are correspondingly called impulsive and corrective structures. Cycles, some of which can be associated with business cycles, are also used in market timing strategy (Millard, 1999).
+One of major concerns of practitioners is the beginning of trend formation and trend termination. In order to project well in advance the price zones, which have the greatest probability of trend change, different methodologies were proposed. Though “no single price methodology can be consistently related upon to indicate with confidence in advance where support or resistance is likely to be found” (Miner, 2002). Another question of major importance is when the trend terminates and how to project well in advance the time periods with the greatest probability of trend change. This refers to area of dynamic time analysis. W.D. Gahn recognized that a market unfolds in proportion to prior cycles but didn’t specify these proportions. Various time analysis techniques, such as Time Retracement, Alternate Time Projections, Trend Vibration, Time Cycle Ratios, are used (Miner, 2002). A common feature in these approaches is the use of Fibonacci ratios and number series. E.g. Trend Vibration measures time intervals between initial swing and counter swing and projects subsequent highs of the same trend which are expected at 62%, 100%, 162%, 200%, 262%, 424% of the initial swing. In periods of consolidation there are no trends but occasionally can be observed rhythms of relatively fixed length which can be considered as mass psychology cycles representing periods of optimism and pessimism of the groups of participants. Electronic copy available at: https://ssrn.com/abstract=3506517
+However there is no logical backgrounds for using Fibonacci numbers and ratios in dynamic price and time projection analysis which rest large and intractable sets of phenomena. The only reason for dynamic time analysis is that “If time and price are the effects of the same cause, the same techniques used for price analysis should be applicable to time analysis” (Miner, 2002, p.5-8)
+Against this background the present paper presents a model of market dynamics. Instead of quantifying many behavioral concepts, information-theoretical approach for market dynamics analysis is used and non- linear evolutionary equation (which can be referred to as Market equation) is derived. Making use of Market equation it proves possible to describe trends and cycles from the unified viewpoint and connects price and time analysis in a single frame. This allow make more accurate predictions on market assets’ future price change. Numerical model predicted values rather well fit Fibonacci numbers and ratios. This can shed additional light on the origin of Fibonacci numbers and ratios and their usefulness in market price and time analysis. Model predictions are tested against real market data.
+The paper is organized as follows. Section 2 describes the model. Section 3 presents model simulations and draws a parallel of the model predicted values with Fibonacci numbers and ratios. In section 4, the model is applied to real financial markets data analysis. Section 5 concludes the paper and draws on the implications for practice and a perspective on future research. Additional information is provided in the Appendices.
+II. Model
+The market participants can be subdivided to “bulls” and “bears”. Average price of the asset at a time is defined by the current balance between bulls and bears. Let 𝑁+(𝑥) be the number of bulls and 𝑁−(𝑥) – the number of bears. The total number of participants is: 𝑁(𝑥)=𝑁+(𝑥)+𝑁−(𝑥). Participants’ expectations follow some statistical distribution with respect to future price. Instead of continuous variables: 𝑁+(𝑥) and 𝑁−(𝑥) one can define two sets of discrete variables: {𝑁𝑖+(𝑥𝑖)} and {𝑁𝑗−(𝑥𝑗)}. Electronic copy available at: https://ssrn.com/abstract=3506517
+The difference between bulls and bears 𝑀(𝑥)=Σ𝑁𝑖+(𝑥𝑖)𝑖−Σ𝑁𝑗−(𝑥𝑗)𝑗 defines the price. One can further define corresponding probabilities as a ratio of the number of bulls and bears to the total number of market participants: 𝑝+=𝑝+(𝑥̅)=Σ𝑁𝑖+(𝑥)𝑖𝑁⁄=𝑁+(𝑥̅)𝑁⁄ ; 𝑝−=𝑝−(𝑥̅)=Σ𝑁𝑗−(𝑥)𝑗𝑁⁄=𝑁−(𝑥̅)𝑁⁄ ; 𝑝=𝐾𝑁⁄ where 𝐾(𝑥)=𝑁(𝑥)−𝑀(𝑥) and entropy distributions:
+𝑇=−(𝑝+−𝑝−)𝑙𝑜𝑔⁡(𝑝+−𝑝−) (1)
+𝑅=−𝑝𝑙𝑜𝑔𝑝 (2)
+According Shannon (Shannon, 1948) 𝑇 and 𝑅 can be considered as informative and redundant part of a signal.
+The number of bulls and bears is balanced in periods of consolidation. This balance is changed when market unfolds in trends. The balance change is subject to cyclical oscillations. For temporal cyclic systems in case when oscillations in 𝑝+−𝑝− are more accentuated then oscillations in 𝑝 one can obtain that that 𝑝+−𝑝− oscillates in non-harmonic mode, i.e. satisfies the equation for non-harmonic oscillator (Eq. A13, Appendix A):
+1𝑘𝑑2(𝑝+−𝑝−)𝑑𝑡2=−(𝑝+−𝑝−)+𝛼(𝑝+−𝑝−)2+𝐶1 (3)
+It was recently shown by Dubois (2019) that when oscillations are of the same rate, as in periods of market consolidation, one obtains linear harmonic oscillator equation (Eq. A10, Appendix A):
+1𝜒𝑑2(𝑝+−𝑝−)𝑑𝑡2=(𝑝+−𝑝−)−𝐶2 (4) Electronic copy available at: https://ssrn.com/abstract=3506517
+The price 𝑆 movement is conditioned by the shift of balance Δ between “bulls” and “bears” (Fig.1).
+Fig.1 Bulls and bears balance shift
+Setting further:
+𝑆0~𝑝+−𝑝−𝑆1~𝑝+𝑆1~𝑝− and Δ1=(𝑆1−𝑆0)=𝑝−Δ2=(𝑆0−𝑆1)=𝑝+ (5)
+one obtains: Δ=Δ1−Δ2=−𝑝++𝑝−. According to Eq.3 𝑆0 satisfies non-harmonic oscillator equation:
+1𝑘𝑑2𝑆0𝑑𝑡2=−Δ+𝛼Δ2+𝐶1 (6)
+𝑆0
+𝑆1
+𝑆−1
+Δ1
+Δ2 Electronic copy available at: https://ssrn.com/abstract=3506517
+Taking into account non-linear dependence, given by the Eq.6, it follows that price evolution is governed by an equation (Eq. B6, Appendix B)2:
+𝑃𝑇+𝑃𝑃𝑋+𝛿𝑃𝑋𝑋𝑋+𝐶1=0 (7)
+which can be considered as generalization of non-linear Korteweg de Vries equation (KdV)3:
+𝑈𝑇+𝑈𝑈𝑋+𝛿𝑈𝑋𝑋𝑋=0 (8)
+For the linear harmonic oscillator functional dependence (obtained in supposition that bulls and bears expectations are balanced) corresponding equation is linear (Eq. B13, Appendix B):
+W𝑇−W𝑋=𝐶2 (9)
+and possesses solutions of the kind (Eq. B14 Appendix B)
+𝑊=𝑓(𝑋+𝑇)−𝐶2𝑇 (10)
+Eq.10 as well includes oscillatory periodic solutions (which can be referred to as in between trends oscillations).
+2 Eq. 7 otherwise is named forced KdV equation and can be exactly transformed into the KdV equation (Miura, 1968).
+3 Equation 7 was derived by Korteweg and de Vries (1895) when they studied the evolution of long waves on the shallow water. Electronic copy available at: https://ssrn.com/abstract=3506517
+Another kind of periodic solutions are those of KdV equation. It is known that KdV equation has solutions in terms of Jacobi elliptic functions which are periodic functions similar sine waves but with sharper crests and flatter throughs (Appendix C):
+𝑃(𝑥,𝑡)=𝑓(𝑥−𝑣𝑡+12⁄𝐶𝑡2)−𝐶𝑡 (C4)
+Cycles described by Eq.C4 can be referred to as in-trend oscillations (e.g. those forming a triangle chart). The distinctive feature of KdV equation (8) is the existence of solitons (or solitary waves) - particle like localized solutions of permanent form that maintain their identity under the interactions with other solitons4:
+𝑈=2𝜅2𝑐ℎ−2(𝜅𝑋−4𝜅3𝑇) (11)
+It can be shown that initial perturbation:
+𝑈=𝑛(𝑛+1)𝜅2𝑐ℎ−2(𝜅𝑋−4𝜅3𝑇) (12)
+evolves in n solitons with amplitudes 2𝜅2, 8𝜅2, 18𝜅2 …2𝑛2𝜅2 and corresponding velocities 4𝜅2, 16𝜅2, 32𝜅2, … 4𝑛2𝜅25 (Miura, 1976).
+Similarly Eq.7 possesses soliton solution of the kind (Eq. B9 Appendix B):
+4 The first notion of soliton phenomenon is attributed to John Scott Russel (1844). The word ‘soliton’ was introduced by Zabusky & Kruskal (1965).
+5 Eq.12 refers to a net soliton solution. In case of arbitrary initial perturbation it evolves in a train of solitons moving off to the right and oscillatory dispersive state moving off to the left (Miura, 1976). Electronic copy available at: https://ssrn.com/abstract=3506517
+𝑃=2𝜅2𝑐ℎ−2(𝜅𝑋−4𝜅3𝑇+𝐶12𝑇2)−𝐶1𝑇 (13)
+Additional term at the right hand side of Eq.13 attenuates the initial impulses amplitudes with time lapse. The impulse described by Eq.13 travels to the right and then after time span 𝑇1=8𝑘3𝐶1⁄ returns to the origin. In case of a train of solitons generated by initial perturbation given by Eq.12 the expected time span ratios for the solitons’ arrival time are proportional to soliton amplitudes: 𝑇2𝑇1=4, 𝑇3𝑇1=9, 𝑇4𝑇1=16 etc.
+This can be interpreted that initial perturbation (induced by new information, participant preferences, psychological and emotional factors etc.) generates market participants’ expectations with respect to future price. These expectations can be considered as non-realized but possible options which can trigger market participants’ actions. Here expectations are analytical events (options) and actions are historical events6. In other words, there is a dynamic of the actions in historical events at the bottom and a dynamic of expectations operating reflexively upon market unfolding. Market functions as hyper-incursive system converting expectations into price movement7. The moments of time when expectations turn to actions (when the impulse arrives to the origin) correspond to price upsurge. Since information can be appreciated from different perspectives generating different meanings of the information (Leydesdorff, Ivanova, 2014) initial perturbation can separate to a number of impulses, so that a chain of successive impulses unfold in an Elliott-like trend pattern. These successive upsurges can be interpreted as cycles driven by synergy in mass psychology corresponding to bunches of expectations which were first projected to the future8.
+6 Shannon (1948) defined the proportion of non-realized but possible options as redundancy, and the proportion of realized options as the relative uncertainty or information.
+7 hyper-incursive systems use future expected states for their reconstruction (Dubois, 1998)
+8 The term synergy originates from the Greek word συνεργία which means “working together.” By working together, a whole is sometimes created that is greater than the sum of its parts. In science, for example, synergy may mean that new options (expectations) have become available. In other words, the number of options in the system under study has further increased
+Electronic copy available at: https://ssrn.com/abstract=3506517
+III. Results and simulation
+Here model predictions are compared with Fibonacci phenomenology widely used in financial markets analysis. In the previous section it was mentioned that initial perturbation evolves in a train of solitons with fixed amplitudes. One can compare soliton amplitudes with Fibonacci ratios used in price projection analysis. Table 1 lists Fibonacci first seven ratios and soliton amplitudes. Third column shows the percentage of difference between Fibonacci numbers and corresponding soliton amplitudes.
+Table 1. First eleven Fibonacci ratios and corresponding soliton amplitudes No Fibonacci ratios soliton amplitudes difference (%) 1 1 1 0 2 1.62 - - 3 2.62 3 12.7 4 4.24 4 5.7 5 6.85 6 12.4 6 11.09 10 9.8 7 17.94 16 10.8
+It follows from Table 1 that Fibonacci ratios relatively well suit soliton amplitudes with maximal relative difference of 12%.
+In an attempt to describe the market temporal evolution Miner (2002) applied Fibonacci ration for spotting market Time cycles. One of the widespread approaches is to take the past waves or swings and to use Fibonacci ratios9 to predict the relationships of past waves to future waves. E.g. using an Alternate price projection (APP) one can project the proportion of a past swing to the next swing, moving in the same direction. The most important ratios of such swings comparison which are considered to have the highest probability of support or trend termination
+9 Fibonacci numbers are a sequence where each successive number is the sum of the two previous numbers: 0, 1, 1, 2, 3, 5, 8, 13, 21 … One can construct the ratios: lim𝑖→∞𝑛𝑖+𝑘𝑛𝑖 , where k = 1, 2, 3, … Corresponding values are: 1.618, 2.618, 4.236. Also the mirror ratios: lim𝑖→∞𝑛𝑖−𝑙𝑛𝑖 can be constructed. Here l = 1, 2, … i and the most often used values are: 0.382, 0.500, 0.618, 1.000These ratios are often used in Fibonacci retracement for determining support and resistant levels and comparing market price movements to one another (Colby, 2003). Electronic copy available at: https://ssrn.com/abstract=3506517
+are: 62%, 100%, 162%, 200%, 262%, and 424%. The other method refers to using Price expansion (Exp) which expands the price range of a swing. All the same the most important ratios to use for price expansions are: 62%, 100%, 162%, 200%, 262%, and 424% (Miner, 2002).
+In table 2 soliton time spans are compared with Fibonacci number series.
+Table 2. First ten Fibonacci numbers and corresponding soliton time spacing
+No Fibonacci numbers soliton amplitudes difference (%) 1 1 1 0 2 2 - - 3 3 - - 4 5 4 20 5 8 9 11 6 13 16 19 7 21 25 16 8 34 36 5
+The results suggest that soliton time spaces relatively well (with maximal 20% difference) correspond Fibonacci numbers.
+Some examples of soliton combinations are presented in Figs. 2-5. Fig. 2 presents the chart for two-soliton solution P1 and P2 originated from initial perturbation with amplitudes 0.5; 2.
+0
+0,5
+1
+1,5
+2
+2,5
+1
+3
+5
+7
+9
+11
+13
+15
+17
+19
+21
+23
+25
+27
+29
+31
+P1+P2
+t Electronic copy available at: https://ssrn.com/abstract=3506517
+Fig.2 Chart for the two soliton solution P1, P2 originated from the single initial perturbation
+Fig.3 presents the same chart for three soliton solution with amplitudes 0.5; 2; 4.5.
+Fig.3 Chart for the three soliton solution P1, P2, P3 originated from the single initial perturbation
+Fig. 4 is the same as Fig.4 save that the biggest soliton with amplitude 4.5 is merged with soliton with amplitude 2.25 (from another perturbation) which results in a soliton with amplitude 3.375.
+0
+1
+2
+3
+4
+5
+1
+3
+5
+7
+9
+11
+13
+15
+17
+19
+21
+23
+25
+27
+29
+31
+P1+P2+P3
+t
+0
+0,5
+1
+1,5
+2
+2,5
+3
+3,5
+4
+1
+3
+5
+7
+9
+11
+13
+15
+17
+19
+21
+23
+25
+27
+29
+31
+P1+P2+P3;P4
+t Electronic copy available at: https://ssrn.com/abstract=3506517
+Fig.4 Chart for the three soliton solution P1, P3, P3 originated from the single initial perturbation and additional soliton from another perturbation P4 merged with P3
+Though the amplitude of the biggest soliton is diminished but the time ratios rest the same.
+Fig. 5 presents a mix of three two-soliton solutions with amplitudes (8;32), (8.82;35.2), (9.68;38.72) in which first order solitons are shifted in a time axis with respect to each other at 1.
+Fig.5 Three two-soliton waves mixing
+Smooth patterns presented in Figs. 2-5 are never envisaged in real market, since the market can be considered as fractal manifold which is self-replicated at different time frames. The mix of various frames blurs the picture. However the main structure still holds. In the next section we show how these sample charts reveal themselves in real market at different time frames.
+IV. Real markets data test
+-5
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+1
+3
+5
+7
+9
+11
+13
+15
+17
+19
+21
+23
+25
+27
+29
+31
+I+II
+t Electronic copy available at: https://ssrn.com/abstract=3506517
+In this section analytical charts obtained above are applied to real market data analysis. Fig. 6 shows EUR/AUD day chart for the period November 2008 - May 2009. Horizontal lines indicate price tops (in relative units) and arrows show peaks timing.
+Fig 6. EUR/AUD day chart.
+The chart at Fig.6 corresponds to two soliton sample chart in Fig.3. The price top at the end of March with relative height 1 is followed by October price top with relative height 4. Another pattern corresponding Fig.2 sample chart is shown in Fig.7 which presents two year (2017-2018) GBP/USD day chart. Here first swing with relative price top 1 is followed by second swing with relative price top 3. The amplitude of first and second tops are not in the required ratio ¼ which can be attributed to the mix of second wave with another solitary wave with relative amplitude 1.
+EUR/AUD Day Bid Electronic copy available at: https://ssrn.com/abstract=3506517
+Fig 7. GBP day chart
+The same two solitons plus one soliton pattern is presented in EUR/GBP day chart for the period 2001-2018 (Fig.8). Price ant time ratios are correspondingly 1/3 and 1/4.
+GBP/USD Day Bid
+EUR/GBP Day Bid Electronic copy available at: https://ssrn.com/abstract=3506517
+Fig 8. EUR/GBP day chart
+Fig.9 shows EUR/USD day chart for the period 2000-2012 analyzed with help of sample chart of Fig.4. Time spans (indicated by arrows) are 1; 4; 9 while relative price tops are 1; 4; 6.
+Fig 10. EUR/USD day chart
+The price 6 can be attributed to overlapping of two solitary waves with relative price tops 9 and 4,5.
+Fig. 10 presents October-December two months DJI 30 3 hour chart analyzed from the viewpoint of four-fold two-soliton solutions. Numbers 1,2,3,4 correspond to first order soliton heights, numbers with arrows correspond to second order soliton heights. One can mention the similarity with analytical calculations in Fig. 5. The heights of second order solitons do not exceed first
+EUR/USD Day Bid Electronic copy available at: https://ssrn.com/abstract=3506517
+order soliton heights by a factor of 4, but this can be attributed to interference with other solitons. However time ratios are perfectly tuned.
+Fig 10. DJI 30 3 hour chart
+Finally the model is applied to long range data. Fig.11 presents S&P 500 Index 90 year historical data chart which is analyzed according analytical pattern chart at Fig.2 (two-soliton solution). The ratio of first and second soliton amplitudes is about ¼. So is expected the time span.
+DJI 30 3 Hour Bid Day Bid Electronic copy available at: https://ssrn.com/abstract=3506517
+Fig 11. S&P 500 Index 90 year historical chart (inflation adjusted, data retrieved from https://www.macrotrends.net/2324/sp-500-historical-chart-data)
+Roughly estimating the height of initial wave, corresponding to first soliton, reached in period 1960-1970 at about 850 one can get the approximate value of the next market top, corresponding to the second soliton, at about 3400. Considering the same way the first and second soliton time spans one can expect the temporal change of long tendency (otherwise referred to as market crash) in the period of 2020-202210.
+V. Summary and Conclusion
+This paper has developed a model describing the dynamics of financial markets, which incorporates such market patterns as trends and cycles. Entertaining information theoretical
+10 One can explain this trend change as a consequence of the knowledge generating paradigm change associated with the mode of production (Ivanova, Leydesdorff, 2015).
+SP 500 Electronic copy available at: https://ssrn.com/abstract=3506517
+approach to the description of stock and financial markets a Market equation is derived. Soliton and periodic solutions of Market equation generate market trends and oscillations. Within the model framework both market trends and oscillations in asset price can be considered from a unified viewpoint regarding the rate of oscillations in “informative” and “redundant” parts of market participants. When the rate of informative part (as in periods of activity) exceeds the rate of redundant part the market unfolds in trends, otherwise when these rates are of approximately similar degree (as in periods of consolidation) the market can unfold in oscillations.
+The findings suggest that the Elliott wave principle, the use of Fibonacci numbers and ratios and Gahn’s recognition of the equality of time and price may have not only empirical but also mathematical foundation. The link between soliton amplitudes and Fibonacci ratios can better explain the reason of applying Fibonacci ratios and number counts to Elliott wave patterns analysis. Because of the dependence of soliton speed on their amplitude it proves possible to link previously untied dimensions, such as price values of successive trend swings and time moments when the trend is expected to terminate, which allows for more accurate predictions with respect to trends’ corrections and termination.
+The paper findings can be considered not only as theoretical input to the market theory but also be used by market practitioners providing the information for trend change before it happens with respect to time and price dimensions.
+.
+References
+Ablowitz, M. J., Segur, H. (1981). Solitons and the Inverse Scattering Transform. Philadelphia, PA: SIAM.
+Banerjee, A. (1992). A simple model of herd behavior. Quarterly Journal of Economics, 107, 797-817.
+Barber, B and Odean, T. (1999). The Courage of Misguided Convictions. Financial Analysts Journal, 55, 41-55.
+Colby, R.W. (2003). The Encyclopedia of Technical Market Indicators, McGraw-Hill, NY. Electronic copy available at: https://ssrn.com/abstract=3506517
+Dubois, D. M. (1998). Computing Anticipatory Systems with Incursion and Hyperincursion. In
+D. M. Dubois (Ed.), Computing Anticipatory Systems, CASYS-First International Conference
+(Vol. 437, pp. 3-29). Woodbury, NY: American Institute of Physics.
+Elliott, R.N. (1994). R.N. Elliott's Masterworks. Prechter, Robert R., Jr. (ed.). Gainesville, GA: New Classics Library.
+Gibbon, D.J. (1985). A survey of the origins and physical importance of soliton equations. Phil. Trans. R. Soc. Lond., A315, 335-365.
+Ivanova, I., Leydesdorff, L. (2015). Knowledge-Generating Efficiency in Innovation Systems: The Relation between Structural and Temporal Effects. Technological Forecasting and Social Change, 96, 254-265.
+Kahneman, D. & Tversky, A. (1979). Prospect theory: An analysis of decision under risk. Econometrica, 47, 263-291.
+Korteweg, D. J. & de Vries, B. (1895). On the change of form of long waves advancing in a rectangular channel and on a new type of long stationary waves. Phil. Mag, 39, 422-443.
+Lax, P. (1974). Periodic Solutions of the KdV equations. Lectures in Applied Mathematics, 15, 85-96.
+Leydesdorff, L., Ivanova, I. (2014). Mutual Redundancies in Inter-human Communication Systems: Steps towards a Calculus of Processing Meaning. Journal of the Association for Information Science and Technology. 65(2), 386-399.
+McGill, W. J. (1954). Multivariate information transmission. Psychometrika, 19(2), 97-116.
+Millard B. (1999). Channels & Cycles: A Tribute to J. M. Hurst, Traders Press.
+Miner, R. C. (2002). Dynamic trading. Dynamic concepts in Time, Price, and Pattern analysis. Traders Press; 3rd edition.
+Miura, R. M. (1968). The Korteweg–deVries Equation and generalisations. I: A remarkable explicit nonlinear transformation. J Mathematical Phys., 9, 1202-1204. Electronic copy available at: https://ssrn.com/abstract=3506517
+Miura, R. M. (1976). The Korteweg–deVries Equation: A Survey of Results. SIAM Rev., 18(3), 412–459.
+Olsen, R. A. (1998). Behavioral Finance and its Implication for Stock-Price Volatility. Financial Analysts Journal, 54(2), 10-17.
+Scott Russel, J. (1844). Report on Waves. In Report on 14th Meeting of the British Association for the Advancements of Science, York 1844, 311-390. London: John Murray.
+Shannon, C. E. (1948). A Mathematical Theory of Communication. Bell System Technical Journal, 27, 379-423 and 623-656.
+Shiller, R.J. (1981). Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends? American Economic Review, 71(3), 421-436.
+Statman, M. (1995). Behavioral Finance vs. Standard Finance. In: Behavioral Finance and Decision Theory in Investment Management. Charlottesville, VA: AIMR.14-22
+Thaler, R. (1980). Toward a positive theory of consumer choice. Journal of Economic Behavior & Organization, 1(1), 36-60.
+Thaler, R. (1985). Mental Accounting and Consumer Choice. Marketing Science, 4(3), 199-214.
+Yeung, R. W. (2008). Information Theory and Network Coding. New York, NY: Springer.
+Zabusky, N. & Kruskal, M. (1965). Phys. Rev. Lett. 15, 240-243.
+Electronic copy available at: https://ssrn.com/abstract=3506517
+Appendix A
+Dubois (2019) showed that in case of temporal cyclic systems one can derive positive definite function from Shannon informational entropy which can be linked to harmonic oscillator equation. It is shown here that with some suppositions one can also obtain non-harmonic oscillator equation. Following the derivation of Dubois, Shannon informational entropy for temporal cyclic systems is written as:
+𝐻=𝐻(𝑡)=−Σ𝑝𝑖(𝑡)𝑙𝑜𝑔𝑆𝑖=1𝑝𝑖(𝑡) (A1)
+Provided that the following condition holds:
+1𝑇∫Σ𝑝𝑖(𝑡)𝑑𝑡=1𝑆𝑖=1𝑇0 (A2)
+one can define average probabilities:
+𝑝𝑖0=1𝑇∫𝑝𝑖(𝑡)𝑑𝑡𝑇0 (A3)
+and the state of reference:
+𝐼0=−Σ𝑝𝑖0𝑙𝑜𝑔𝑆𝑖=1𝑝𝑖0 (A4)
+Informational entropy 𝐻 can then be developed in Taylor’s series around the reference state:
+𝐻=𝐼0−Σ[(𝑙𝑜𝑔𝑝𝑖0+1)(𝑝𝑖−𝑆𝑖=1𝑝𝑖0)+(𝑝𝑖−𝑝𝑖0)22𝑝𝑖0+⋯𝑂((𝑝𝑖−𝑝𝑖0)3] (A5) Electronic copy available at: https://ssrn.com/abstract=3506517
+Substituting (A4) into (A5) and neglecting the terms beyond the second degree one obtains:
+𝐻=−Σ[𝑝𝑖𝑙𝑜𝑔𝑝𝑖0+(𝑝𝑖−𝑝𝑖0)+(𝑝𝑖−𝑝𝑖0)22𝑝𝑖0𝑆𝑖=1] (A6)
+One can define positive function:
+𝐷∗=Σ((𝑝𝑖−𝑝𝑖0)22𝑝𝑖0)𝑆𝑖=1 (A7)
+The state of equilibrium corresponds to the following condition:
+𝑑𝐷∗𝑑𝑡=0 (A8)
+In case of S =2 one obtains from Eq. A8:
+{𝑑𝑝1𝑑𝑡=𝛾𝑝20(𝑝2−𝑝20)𝑑𝑝2𝑑𝑡=𝛾𝑝10(𝑝1−𝑝10) (A9)
+Here 𝛾 is a function of 𝑝1,𝑝2,𝑡⁡. It is easy to obtain harmonic oscillator equation from the system (A9): Electronic copy available at: https://ssrn.com/abstract=3506517
+1𝜒𝑑2𝑝2𝑑𝑡2=𝑝2−𝐶2 (A10)
+𝜒=𝛾2𝑝10𝑝20; 𝐶2=𝑝20.
+The function 𝐷∗ corresponds to non-linear residue in (A6) which is a truncated version of (A5). When 𝑝2 is smaller than 𝑝1, in order to keep the same order of magnitude one can drop the terms beyond the second degree for the variable 𝑝1 and the terms beyond the third degree for the variable 𝑝2. This leads to the function 𝐷∗∗ defined analogously to the 𝐷∗:
+𝐷∗∗=(𝑝1−𝑝10)22𝑝10+(𝑝2−𝑝20)22𝑝20−(𝑝2−𝑝20)36𝑝202 (A11)
+From the equation for the state of equilibrium 𝑑𝐷∗∗𝑑𝑡=0 one gets the following system:
+{𝑑𝑝1𝑑𝑡=𝛾𝑝20(𝑝2−𝑝20)+𝛾2𝑝202(𝑝2−𝑝20)2𝑑𝑝2𝑑𝑡=𝛾𝑝10(𝑝1−𝑝10) (A12)
+from which an equation for non-harmonic oscillator can be obtained as following:
+1𝑘𝑑2𝑝2𝑑𝑡2=−𝑝2+𝛼𝑝22+𝐶1 (A13)
+where: 𝑘=2𝛾𝑝20; 𝛼=14𝑝20; 𝐶1=3𝑝204 Electronic copy available at: https://ssrn.com/abstract=3506517
+Appendix B
+In deriving the market equation we follow the procedure describing the phenomenon of Fermi, Pasta, Ulam (Ablowitz, Segur, 1981). Developing 𝑆𝑖+1 and 𝑆𝑖−1 in Taylor’s series:
+𝑆𝑖+1=𝑆𝑖+𝑆𝑖′ℎ+12𝑆𝑖′′ℎ2+16𝑆𝑖′′′ℎ3+124𝑆𝑖′′′′ℎ4+⋯𝑆𝑖−1=𝑆𝑖−𝑆𝑖′ℎ+12𝑆𝑖′′ℎ2−16𝑆𝑖′′′ℎ3+124𝑆𝑖′′′′ℎ4+⋯ (B1)
+one obtains (keeping the terms up to ℎ4 order of magnitude):
+Δ=𝑆𝑖′′ℎ2+112𝑆𝑖′′′′ℎ4Δ2=2𝑆𝑖′𝑆𝑖′′ℎ3 (B2)
+From the equation for non-harmonic oscillator (which is essentially equation (A13) where 𝑝2=𝑝+−𝑝−): 1𝑘𝑆𝑖𝑡𝑡=Δ+αΔ2+𝐶1
+one obtains:
+1𝑘𝑆𝑖𝑡𝑡=𝑆𝑖′′ℎ2+2α𝑆𝑖′𝑆𝑖′′ℎ3+112𝑆𝑖′′′′ℎ4+𝐶1…𝑂(ℎ5) (B3)
+Setting further: 𝑤=√𝑘; 𝜏=𝑤𝑡; 𝑦=𝑥ℎ⁄; 𝜀=2𝛼 one can rewrite (B3) in the form:
+−𝑆𝑖𝜏𝜏+𝑆𝑖𝑦𝑦+𝜀𝑆𝑖𝑦𝑆𝑖𝑦𝑦+112𝑆𝑖𝑦𝑦𝑦𝑦+𝐶1=0 (B4)
+Electronic copy available at: https://ssrn.com/abstract=3506517
+When passing to moving frame: 𝑋=𝑦−𝜏, rescaling time variable 𝑇=𝜀2𝜏, so that 𝑆𝑖=Σ(X,T), and keeping the terms up to the first order of 𝜀 (B3) takes the form:
+𝜀Σ𝑋𝑇+𝜀Σ𝑋Σ𝑋𝑋+112Σ𝑋𝑋𝑋𝑋+𝐶1=0 (B5)
+Defining: 𝑃=Σ𝑋 and 𝛿=112𝜀 (B4) is written as:
+𝑃𝑇+𝑃𝑃𝑋+𝛿𝑃𝑋𝑋𝑋+𝐶1=0 (B6)
+which corresponds to Korteweg de Vries (KdV) equation (Gibbon, 1985):
+𝑈𝑇+𝑈𝑈𝑋+𝛿𝑈𝑋𝑋𝑋=0 (B7)
+with additional constant term 𝐶1. Since one soliton solution of equation (B7) is:
+𝑈=2𝜅2𝑐ℎ−2(𝜅𝑋−4𝜅3𝑇) (B8)
+then the solution of equation (B6) can be written in the form:
+𝑃=2𝜅2𝑐ℎ−2(𝜅𝑋−4𝜅3𝑇+𝐶12𝑇2)−𝐶1𝑇 (B9)
+Electronic copy available at: https://ssrn.com/abstract=3506517
+One can mention that for the case of harmonic oscillator, presented by equation (A10), one can obtain linear wave equation. Substituting expression for Δ from (B2) into the equation for harmonic oscillator (A10: 1𝜒𝑆𝑖𝑡𝑡=Δ+𝐶2
+one can get:
+1𝜒𝑆𝑖𝑡𝑡=𝑆𝑖′′ℎ2+112𝑆𝑖′′′′ℎ4+𝐶2…𝑂(ℎ5) (B10)
+keeping the terms up to ℎ2 and modifying the variables one obtains:
+𝑆𝑖𝜏𝜏+𝑆𝑖𝑦𝑦+𝐶2=0 (B11)
+By passing to moving frame: 𝑋=𝑦−𝜏; 𝑇=12𝜏 one can write (B11) as:
+Σ𝑇𝑇−Σ𝑋𝑇=𝐶2 (B12)
+Defining 𝑊=Σ𝑇 finally one gets linear equation:
+𝑊𝑇−𝑊𝑋=𝐶2 (B13)
+Solution of (B13) is:
+𝑊=𝑓(𝑋+𝑇)−𝐶2𝑇 (B14) Electronic copy available at: https://ssrn.com/abstract=3506517
+Appendix C
+In supposition of existence a periodic solution (Lax, 1974, p.93):
+𝑈=𝑓(𝑥−𝑣𝑡) (C1)
+after substitution in Eq.7 one can get:
+−𝑣𝑓′+𝑓𝑓′+𝑓′′′=12𝑎 (C2)
+here 𝑎 is a constant of integration. Multiplying Eq. C2 by 2𝑓′ and integrating one obtains an equation which has periodic solutions in the form of elliptic functions:
+𝑓′2=⁡−13𝑓3+𝑣𝑓2+𝑎𝑓+𝑏 (C3)
+Then corresponding solution for Eq. (7) takes the form:
+𝑃(𝑥,𝑡)==𝑓(𝑥−𝑣𝑡+12⁄𝐶𝑡2)−𝐶𝑡 (C4)
+Electronic copy available at: https://ssrn.com/abstract=3506517
